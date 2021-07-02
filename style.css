@@ -1,0 +1,128 @@
+body {   
+    width: 100%;
+    margin: 0 ;
+    padding: 0;
+    font: 90% Georgia, "Times New Roman", serif;
+    background-color: linen;
+}
+.main {
+    max-width: 977px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;  
+}
+header {
+    height: 150px;
+    width: 935px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 18px; 
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: snow;
+    border-color: #000;
+    border-style: solid; 
+}
+p,  
+h3,
+h2, 
+ul, 
+li { margin: 4px; }
+.heading {
+    width: 90%;
+    height: 28px;
+    padding-top: 2px;
+    padding-left: 5px;
+    margin: 15px 15px 15px 0px;
+    background-color: rgb(210, 117, 30);
+    box-shadow: 5px 5px 5px 5px #7777;
+}
+a { text-decoration: none; }
+h1 {                
+    width: 400px;
+    font-size: 300%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+#banner p {
+    width: 250px;
+    margin: 0 auto;
+    font-size: 120%;
+}
+#banner {
+    width: 700px;
+}
+h3,
+h2,
+#courses { margin: 15px 15px 15px 15px; }
+#photo {
+    width: 170px;
+    height: 150px;
+    padding: 2px;
+    margin-top: 1px; 
+    margin-left: 1px;    
+}
+aside { 
+    width: 262px;
+    height: 444px;
+    color: lightyellow;
+    background-color: rgb(46, 45, 45);
+    border-color: #000;
+    border-style: solid; 
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+section {
+    width: 702px;
+    height: 440px;
+    padding: 2px;
+    background-color: #7777; 
+    border-color: #000;
+    border-style: solid; 
+    border-top: 0;
+    border-bottom: 0;
+}
+.footer {
+    max-width: 977px;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 6px;
+    background-color: silver;
+    border-color:black;
+    border-style: solid;     
+}
+.hobbies {
+    display: inline;
+    padding: 4px;
+    margin: 10px 10px;
+}
+.paragraph { margin: 10px 30px; }
+#contacts { float: left; }
+.copyright {
+    margin-top: 90px;
+    margin-right: 12px;
+}
+#icon {
+    width: 75px;
+    height: 60px;
+    padding: 3px;
+    background-color: silver;
+}
+figcaption { text-align: center; }
+.school {
+    width: 75px;
+    height: 60px;
+    padding-top: 38px;
+}
